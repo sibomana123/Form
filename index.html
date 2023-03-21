@@ -11,22 +11,22 @@
   <body >
     <div class="container">
       <header class="header">
-        <h1 id="title" class="text-center">Microverse Survey Form</h1>
-        <p id="description" class="description text-center">
-          Thank you for taking the time to help us improve the platform
-        </p>
+        <h1 id="title" class="text-center"><b>Microverse Survey Form</b></h1>
+        <b><p id="description" class="description text-center">
+          Thank you for taking the time to help us improve the platform.
+        </p></b>
       </header>
       <form id="survey-form">
         <div class="form-group">
-          <label id="name-label" for="name">Name</label>
+          <label id="name-label" for="name">Name</label><br>
           <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
         </div>
         <div class="form-group">
-          <label id="email-label" for="email">Email</label>
+          <label id="email-label" for="email">Email</label><br>
           <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
         </div>
         <div class="form-group">
-          <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+          <label id="number-label" for="number">Age<span class="clue">(optional)</span></label><br>
           <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
         </div>
         <div class="form-group">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="form-group">
-          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <p>Would you recommend Microverse to a friend?</p>
           <label>
             <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</label>
           <label>
@@ -52,7 +52,7 @@
         </div>
 
         <div class="form-group">
-          <p>What is your favorite feature of freeCodeCamp?</p>
+          <p>What is your favorite feature of Microverse?</p>
           <select id="most-like" name="mostLike" class="form-control" required="">
             <option disabled="" selected="" value="">Select an option</option>
             <option value="challenges">Challenges</option>
@@ -69,26 +69,27 @@
           </p>
 
           <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
-          <label>
-            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
-          <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
-          <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label>
-          <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label>
-          <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
-          <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
-          <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label>
-          <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
-          <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
-          <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label>
+          <label><br>
+            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label><br>
+          <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label><br>
+          <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label><br>
+          <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label><br>
+          <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label><br>
+          <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label><br>
+          <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label><br>
+          <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label><br>
+          <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label><br>
+          <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label><br>
         </div>
 
-        <div class="form-group">
+        <div class="form-group" style="text-align: center">
           <p>Any comments or suggestions?</p>
           <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
         </div>
 
-        <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
+        <div class="form-group" style="text-align: center;">
+          <button type="submit" id="submit" class="submit-button" 
+          style="background-color: #000000; color: aliceblue; font-size: 18px; font-family: monospace; padding: 10px; border: none; border-radius: 10px; text-align: center;">
             Submit
           </button>
         </div>
